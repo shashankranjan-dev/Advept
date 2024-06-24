@@ -3,14 +3,14 @@ import React from "react";
 function Pricing() {
   return (
     <div>
-      <div class="bg-white py-6 sm:py-8 lg:py-12">
+      <div class="bg-black py-6 sm:py-8 lg:py-12">
         <div class="mx-auto max-w-screen-lg px-4 md:px-8">
           <div class="mb-10 md:mb-16">
-            <h2 class="block w-full  bg-clip-text text-center mb-6 font-medium  text-3xl sm:text-4xl">
+            <h2 class="block w-full  text-white bg-clip-text text-center mb-6 font-medium  text-3xl sm:text-4xl">
               Choose a Bundle
             </h2>
 
-            <p class="mx-auto max-w-screen-md text-center text-gray-500 md:text-lg">
+            <p class="mx-auto max-w-screen-md text-center text-gray-400 md:text-lg">
               This is a section of some simple filler text, also known as
               placeholder text. It shares some characteristics of a real written
               text but is random or otherwise generated.

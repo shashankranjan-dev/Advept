@@ -12,84 +12,73 @@ import Faq from "./Faq";
 function Hero() {
   return (
     <div>
-      <section class="pt-10 bg-gray-200">
-        <div class="px-12 mx-auto max-w-screen-2xl">
-          <div class="w-full mx-auto text-left md:w-11/12 xl:w-9/12 md:text-center">
-            <h1 class="mb-8 text-4xl font-bold leading-none tracking-normal text-gray-900 md:text-6xl md:tracking-tight">
-              <span>Welcome to</span>{" "}
-              <span class="block w-full py-1 text-transparent bg-clip-text leading-normal bg-gradient-to-r from-orange-400 to-purple-500  lg:inline">
-                Advept
-              </span>{" "}
-              <span>Your Gateway to Digital Success </span>
-            </h1>
-            <p class="px-0 mb-8 text-lg text-gray-600 md:text-xl lg:px-24">
-              Start gaining the traction you've always wanted with our
-              next-level templates and designs. Crafted to help you tell your
-              story.
-            </p>
-            <div class="mb-4 space-x-0 md:space-x-4 md:mb-8">
-              <a
-                href="#_"
-                class="inline-flex items-center justify-center w-full px-6 py-3 mb-2 text-lg text-white bg-indigo-400 rounded-2xl sm:w-auto sm:mb-0"
+      <div className="bg-black">
+        <section class="relative overflow-hidden pt-20 sm:pt-32 xl:pt-36">
+          <div class="relative z-10">
+            <div class="absolute inset-x-0 top-1/2 -z-10 flex -translate-y-1/2 justify-center overflow-hidden [mask-image:radial-gradient(50%_45%_at_50%_55%,white,transparent)]">
+              <svg
+                class="h-[60rem] w-[100rem] flex-none stroke-blue-600 opacity-20"
+                aria-hidden="true"
               >
-                Get Started
-                <svg
-                  class="w-4 h-4 ml-1"
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 20 20"
-                  fill="currentColor"
-                >
+                <defs>
+                  <pattern
+                    id="e9033f3e-f665-41a6-84ef-756f6778e6fe"
+                    width="200"
+                    height="200"
+                    x="50%"
+                    y="50%"
+                    patternUnits="userSpaceOnUse"
+                    patternTransform="translate(-100 0)"
+                  >
+                    <path d="M.5 200V.5H200" fill="none"></path>
+                  </pattern>
+                </defs>
+                <svg x="50%" y="50%" class="overflow-visible fill-blue-50">
                   <path
-                    fill-rule="evenodd"
-                    d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
-                    clip-rule="evenodd"
+                    d="M-300 0h201v201h-201Z M300 200h201v201h-201Z"
+                    stroke-width="0"
                   ></path>
                 </svg>
-              </a>
-              <a
-                href="#_"
-                class="inline-flex items-center justify-center w-full px-6 py-3 mb-2 text-lg bg-gray-100 rounded-2xl sm:w-auto sm:mb-0"
-              >
-                Learn More
-                <svg
-                  class="w-4 h-4 ml-1"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"
-                  ></path>
-                </svg>
-              </a>
+                <rect
+                  width="100%"
+                  height="100%"
+                  stroke-width="0"
+                  fill="url(#e9033f3e-f665-41a6-84ef-756f6778e6fe)"
+                ></rect>
+              </svg>
             </div>
           </div>
-          <div class="w-full mx-auto mt-16 text-center md:w-10/12">
-            <div class="relative z-0 w-full mt-8">
-              <div class="relative overflow-hidden ">
-                {/* <div class="flex items-center flex-none px-4 bg-green-400 rounded-b-none h-11 rounded-xl">
-                  <div class="flex space-x-1.5">
-                    <div class="w-3 h-3 border-2 border-white rounded-full"></div>
-                    <div class="w-3 h-3 border-2 border-white rounded-full"></div>
-                    <div class="w-3 h-3 border-2 border-white rounded-full"></div>
-                  </div>
-                </div> */}
-                <img src="/slider-bg.webp" alt="" />
-                {/* https://cdn.devdojo.com/images/march2021/green-dashboard.jpg */}
-              </div>
+          <div class=" z-20 mx-auto max-w-7xl px-6 lg:px-8">
+            <div class="mx-auto max-w-5xl  text-center">
+              <h1 class="text-4xl font-bold  tracking-wide text-gray-200 sm:text-6xl">
+                Welcome to Advept :
+                <span class="leading-normal text-blue-600">
+                  {" "}
+                  Your Gateway to Digital Success
+                </span>
+              </h1>
+              <h2 class="mt-6 text-lg leading-8 text-gray-300">
+                Choose a more eco-friendly way to hydrate with our 100%
+                recyclable cartons.
+              </h2>
+            </div>
+            <div class=" mx-auto mt-10 max-w-screen-xl">
+              <img
+                class="w-full rounded-t-2xl object-cover object-center  h-[600px]"
+                src="https://images.unsplash.com/photo-1587502536575-6dfba0a6e017"
+                alt=""
+              />
             </div>
           </div>
-        </div>
-      </section>
+        </section>
+      </div>
 
       <div className="">
-        <Homserv />
-        <Hombout />
         <Features />
+        <Homserv />
+
+        <Hombout />
+
         <Pricing />
         {/* <Partner /> */}
         <Article />

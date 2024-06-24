@@ -2,8 +2,8 @@ import React from "react";
 
 function Homserv() {
   return (
-    <div>
-      <div class="container mx-auto max-w-screen-xl py-12 lg:py-28 ">
+    <div className="bg-black">
+      {/* <div class="container mx-auto max-w-screen-xl py-12 lg:py-28 ">
         <div class="relative mx-auto max-w-5xl text-center">
           <h2 class="block w-full  bg-clip-text font-medium  text-3xl sm:text-4xl">
             Why we are the best ?
@@ -129,6 +129,95 @@ function Homserv() {
                   We build our templates for speed in mind, for super-fast load
                   times so your customers never waver.
                 </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> */}
+
+      <div class="flex  items-center justify-center py-10">
+        <div class="container mx-auto max-w-screen-xl py-12 px-6 lg:py-28  ">
+          <div>
+            <span class="text-sky-400 text-lg font-semibold">
+              Main features
+            </span>
+            <h2 class="mt-4 text-2xl text-gray-400 font-bold md:text-4xl">
+              A technology-first approach to payments{" "}
+              <br class="lg:block" hidden /> and finance
+            </h2>
+          </div>
+          <div className="grid lg:grid-cols-2 lg:grid-rows-2 py-9 gap-8 ">
+            <div class="row-span-2 flex flex-col shadow shadow-green-400 hover:bg-sky-200 transition duration-700 rounded-md border border-slate-500">
+              <div class="h-1/2 flex-1">
+                <img
+                  src=" /SMO.png"
+                  class="w-full bg-neutral-950 object-cover object-right-top"
+                  alt="omnichannel"
+                />
+              </div>
+              <div class="p-10">
+                <h3 class="text-xl font-medium text-gray-700">
+                  Omnichannel support center
+                </h3>
+                <p class="mt-2 text-slate-500">
+                  Chatwoot connects with popular customer communication channels
+                  like Email, Website live-chat, Facebook, Twitter, WhatsApp,
+                  Instagram, Line, etc., and helps you deliver a consistent
+                  customer experience across channels.
+                </p>
+                <a href="" class="mt-2 inline-flex text-sky-500">
+                  Read More →
+                </a>
+              </div>
+            </div>
+            <div class="flex hover:bg-sky-200 transition duration-700 rounded-md shadow shadow-pink-400 border border-slate-500">
+              <div class="flex-1 p-10">
+                <h3 class="text-xl font-medium text-gray-700">
+                  A live-chat that fits your brand
+                </h3>
+                <p class="mt-2 text-slate-500">
+                  Connect with your website visitors, communicate with them in
+                  realtime and give them quality support with a live-chat widget
+                  that fits your brand.
+                </p>
+                <a href="" class="mt-2 inline-flex text-sky-500">
+                  Read More →
+                </a>
+              </div>
+
+              <div class="relative hidden h-full w-1/3 overflow-hidden lg:block">
+                <div class="absolute inset-0">
+                  <img
+                    src="/SEO.png"
+                    class="h-full bg-neutral-950 w-full object-cover object-left-top"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="flex rounded-md border hover:bg-sky-200 transition shadow shadow-yellow-400 duration-700 border-slate-500">
+              <div class="flex-1 p-10">
+                <h3 class="text-xl font-medium text-gray-700">
+                  Respond faster, with automated chatbots
+                </h3>
+                <p class="mt-2 text-slate-500">
+                  Integrate with chatbots using Rasa or Dialogflow to automate
+                  conversations. Qualify using chatbots and seamlessly handoff
+                  to human agents.
+                </p>
+                <a href="" class="mt-2 inline-flex text-sky-500">
+                  Read More →
+                </a>
+              </div>
+
+              <div class="relative hidden h-full w-1/3 overflow-hidden lg:block">
+                <div class="absolute inset-0">
+                  <img
+                    src="/SEO.png"
+                    class="h-full w-full bg-neutral-950 object-cover object-left-top"
+                    alt=""
+                  />
+                </div>
               </div>
             </div>
           </div>

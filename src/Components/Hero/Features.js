@@ -1,131 +1,73 @@
 const Index = () => (
-  <div className="overflow-y-hidden">
-    <div className="py-20" style={{ fontFamily: '"Lato", sans-serif' }}>
-      {/* Code block starts */}
-      <dh-component>
-        <section className="mx-auto container bg-white pt-16">
-          <div className="px-4 lg:px-0">
-            <div role="contentinfo" className="flex items-center flex-col px-4">
-              <p
-                tabIndex={0}
-                className="focus:outline-none uppercase text-base text-center text-gray-500 leading-none"
-              >
-                in few easy steps
+  <div className="">
+    <section id="works" class="relative bg-black py-10 sm:py-16 lg:py-24  ">
+      <div class="px-4 mx-auto max-w-7xl lg:mt-24 sm:px-6 lg:px-8">
+        <div class="max-w-2xl mx-auto text-center">
+          <h2 class="text-4xl text-white font-extrabold mx-auto md:text-6xl lg:text-5xl">
+            How does it work?
+          </h2>
+          <p class="max-w-2xl mx-auto mt-4 text-base text-gray-400 leading-relaxed md:text-2xl">
+            Our AI solution will help you from start to finish
+          </p>
+        </div>
+        <div class="relative mt-12 lg:mt-20">
+          <div class="absolute inset-x-0 hidden xl:px-44 top-2 md:block md:px-20 lg:px-28">
+            <img
+              alt=""
+              loading="lazy"
+              width="1000"
+              height="500"
+              decoding="async"
+              data-nimg="1"
+              class="w-full"
+              src="https://cdn.rareblocks.xyz/collection/celebration/images/steps/2/curved-dotted-line.svg"
+            />
+          </div>
+          <div class="relative grid grid-cols-1 text-center gap-y-12 md:grid-cols-3 gap-x-12">
+            <div>
+              <div class="flex items-center justify-center w-16 h-16 mx-auto bg-white hover:bg-sky-200 transition duration-700 border-2 border-gray-200 rounded-full shadow">
+                <span class="text-xl font-semibold text-gray-700">1</span>
+              </div>
+              <h3 class="mt-6 text-xl  text-white font-semibold leading-tight md:mt-10">
+                Select template
+              </h3>
+              <p class="mt-4 text-base text-gray-400 md:text-lg">
+                Select template accourding to your requirement
               </p>
-              <h1
-                tabIndex={0}
-                className=" block w-full  bg-clip-text font-medium  pt-5 text-3xl sm:text-5xl text-center leading-tight text-black lg:w-7/12 md:w-9/12 xl:w-5/12"
-              >
-                Why choose us ?
-              </h1>
+            </div>
+            <div>
+              <div class="flex items-center justify-center w-16 h-16 mx-auto bg-white  hover:bg-sky-200 transition duration-700 border-2 border-gray-200 rounded-full shadow">
+                <span class="text-xl font-semibold text-gray-700">2</span>
+              </div>
+              <h3 class="mt-6 text-xl text-white font-semibold leading-tight md:mt-10">
+                Enter Your Details
+              </h3>
+              <p class="mt-4 text-base text-gray-400 md:text-lg">
+                Put in your personalized details and let the AI do the rest.
+              </p>
+            </div>
+            <div>
+              <div class="flex items-center justify-center w-16 h-16 mx-auto bg-white border-2 hover:bg-sky-200 transition duration-700 border-gray-200 rounded-full shadow">
+                <span class="text-xl font-semibold text-gray-700">3</span>
+              </div>
+              <h3 class="mt-6 text-xl text-white font-semibold leading-tight md:mt-10">
+                Publish it
+              </h3>
+              <p class="mt-4 text-base text-gray-400 md:text-lg">
+                Use output as you like
+              </p>
             </div>
           </div>
-        </section>
-        <section className="bg-indigo-400 py-12 mt-12">
-          <div
-            tabIndex={0}
-            aria-label="group of cards"
-            className="focus:outline-none px-6 lg:px-0"
-          >
-            <div className="mx-auto container flex flex-wrap px-0 lg:px-24">
-              <div
-                tabIndex={0}
-                aria-label="card 1"
-                className="focus:outline-none flex sm:w-full md:w-1/2 lg:border-r md:border-r sm:border-r-0 border-indigo-200 pb-10 lg:pt-10"
-              >
-                <div className=" flex flex-shrink-0 mr-5 text-white"></div>
-                <div className="md:w-9/12 lg:w-9/12">
-                  <h2
-                    tabIndex={0}
-                    className="focus:outline-none text-2xl font-medium leading-5 text-white"
-                  >
-                    Expertise :
-                  </h2>
-                  <p
-                    tabIndex={0}
-                    className="focus:outline-none text-lg text-white text-justify leading-relaxed xl:w-10/12 pt-7"
-                  >
-                    Our team comprises seasoned professionals who stay ahead of
-                    industry trends and algorithm updates to deliver
-                    cutting-edge solutions.
-                  </p>
-                </div>
-              </div>
-              <div
-                tabIndex={0}
-                aria-label="card 2"
-                className="focus:outline-none flex sm:w-full md:w-1/2 lg:pb-10 lg:pt-10"
-              >
-                <div className=" flex flex-shrink-0 sm:ml-0 md:ml-10 lg:ml-10 mr-5 text-white"></div>
-                <div className="md:w-9/12 lg:w-9/12">
-                  <h2
-                    tabIndex={0}
-                    className="focus:outline-none text-2xl font-medium leading-5 text-white"
-                  >
-                    Tailored Strategies :
-                  </h2>
-                  <p
-                    tabIndex={0}
-                    className="focus:outline-none text-lg text-white text-justify leading-relaxed xl:w-10/12 pt-7"
-                  >
-                    We acknowledge that every business is special. That's why we
-                    create customized strategies that align with your goals and
-                    target audience.
-                  </p>
-                </div>
-              </div>
-              <div
-                tabIndex={0}
-                aria-label="card 3"
-                className="focus:outline-none flex sm:w-full md:w-1/2 lg:border-t md:border-t sm:border-t-0 lg:border-r md:border-r sm:border-r-0 border-indigo-200 pt-10 lg:pb-20"
-              >
-                <div className=" flex flex-shrink-0 mr-5 text-white"></div>
-                <div className="md:w-9/12 lg:w-9/12">
-                  <h2
-                    tabIndex={0}
-                    className="focus:outline-none text-2xl font-medium leading-5 text-white"
-                  >
-                    Data-Driven Approach :
-                  </h2>
-                  <p
-                    tabIndex={0}
-                    className="focus:outline-none text-lg text-white text-justify leading-relaxed xl:w-10/12 pt-7"
-                  >
-                    We rely on data and analytics to drive our decisions,
-                    ensuring that your digital marketing efforts are always
-                    optimized for success.
-                  </p>
-                </div>
-              </div>
-              <div
-                tabIndex={0}
-                aria-label="card 4"
-                className="focus:outline-none flex sm:w-full md:w-1/2 lg:border-t md:border-t sm:border-t-0 border-indigo-200 pt-10 lg:pb-20"
-              >
-                <div className=" flex flex-shrink-0 sm:ml-0 md:ml-10 lg:ml-10 mr-5 text-white"></div>
-                <div className="md:w-9/12 lg:w-9/12">
-                  <h2
-                    tabIndex={0}
-                    className="focus:outline-none text-2xl font-medium leading-5 text-white"
-                  >
-                    Proven Results :
-                  </h2>
-                  <p
-                    tabIndex={0}
-                    className="focus:outline-none text-lg text-white text-justify leading-relaxed xl:w-10/12 pt-7"
-                  >
-                    Our performance speaks for itself. We've helped countless
-                    businesses achieve their digital marketing goals and
-                    generate impressive ROI.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-      </dh-component>
-      {/* Code block ends */}
-    </div>
+        </div>
+      </div>
+      <div
+        class="absolute inset-0 m-auto max-w-xs h-[357px] blur-[118px] sm:max-w-md md:max-w-lg"
+        style={{
+          background:
+            "radial-gradient(1.89deg, rgba(34, 78, 95, 0.4) -1000%, rgba(191, 227, 205, 0.26) 1500.74%, rgba(34, 140, 165, 0.41) 56.49%, rgba(28, 47, 99, 0.11) 1150.91%)",
+        }}
+      ></div>
+    </section>
   </div>
 );
 export default Index;

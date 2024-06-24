@@ -3,7 +3,7 @@ import React from "react";
 function Cretification() {
   return (
     <div>
-      <div class="container my-24 mx-auto md:px-6">
+      {/* <div class="container my-24 mx-auto md:px-6">
         <section class="mb-32 text-center">
           <div class="py-12 md:px-12">
             <div class="container mx-auto xl:px-32">
@@ -19,6 +19,7 @@ function Cretification() {
                         <img
                           src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/landing-page/logo2-1.png"
                           class="neutralscale px-6"
+                          alt=""
                         />
                       </div>
 
@@ -26,6 +27,7 @@ function Cretification() {
                         <img
                           src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/landing-page/logo5-1.png"
                           class="neutralscale px-6"
+                          alt=""
                         />
                       </div>
 
@@ -33,6 +35,7 @@ function Cretification() {
                         <img
                           src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/landing-page/logo3-1.png"
                           class="neutralscale px-6"
+                          alt=""
                         />
                       </div>
 
@@ -40,6 +43,7 @@ function Cretification() {
                         <img
                           src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/landing-page/logo4-1.png"
                           class="neutralscale px-6"
+                          alt=""
                         />
                       </div>
                     </div>
@@ -49,14 +53,14 @@ function Cretification() {
                   <img
                     src="https://mdbcdn.b-cdn.net/img/new/textures/full/166.jpg"
                     class="w-full rounded-lg shadow-lg dark:shadow-black/20"
-                    alt="image"
+                    alt=""
                   />
                 </div>
               </div>
             </div>
           </div>
         </section>
-      </div>
+      </div> */}
     </div>
   );
 }

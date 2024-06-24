@@ -5,9 +5,9 @@ import { Link } from "react-router-dom";
 function Footer() {
   return (
     <div>
-      <footer class="bg-white">
-        <div class="bg-indigo-400 py-6">
-          <div class="mx-auto max-w-screen-2xl px-4 md:px-6">
+      <footer class="bg-black">
+        <div class="bg-stone-700 mx-auto max-w-screen-xl container py-6">
+          <div class=" px-4 md:px-6">
             <div class="flex flex-col items-center justify-between gap-2 md:flex-row">
               <div class="mb-3 text-center md:mb-0 md:text-left">
                 <span class="font-bold uppercase tracking-widest text-gray-100">
@@ -19,7 +19,7 @@ function Footer() {
               <form class="flex w-full gap-2 md:max-w-md">
                 <input
                   placeholder="Email"
-                  class="w-full flex-1 rounded border border-white bg-indigo-400 px-3 py-2 text-white placeholder-indigo-100 outline-none ring-indigo-300 transition duration-100 focus:ring"
+                  class="w-full flex-1 rounded border border-white bg-stone-700 px-3 py-2 text-white placeholder-white outline-none  transition duration-100 "
                 />
 
                 <button class="inline-block rounded bg-white px-8 py-2 text-center text-sm font-semibold text-indigo-500 outline-none ring-indigo-300 transition duration-100 hover:bg-gray-100 focus-visible:ring active:text-indigo-600 md:text-base">
@@ -31,7 +31,7 @@ function Footer() {
         </div>
 
         <div class="pt-12 lg:pt-16">
-          <div class="mx-auto max-w-screen-2xl px-4 md:px-4">
+          <div class="mx-auto max-w-screen-xl container px-4 md:px-4">
             <div class="mb-16 grid grid-cols-2 gap-12 md:grid-cols-4 lg:grid-cols-6 lg:gap-8">
               <div class="col-span-full lg:col-span-2">
                 <div class="mb-4 lg:-mt-2">
@@ -44,7 +44,7 @@ function Footer() {
                   </Link>
                 </div>
 
-                <p class="mb-6 text-gray-500 sm:pr-8">
+                <p class="mb-6 text-gray-100 sm:pr-8">
                   Filler text is dummy text which has no meaning however looks
                   very similar to real text
                 </p>
@@ -53,7 +53,7 @@ function Footer() {
                   <a
                     href="#"
                     target="_blank"
-                    class="text-gray-400 transition duration-100 hover:text-gray-500 active:text-gray-600"
+                    class="text-gray-400 transition duration-100 hover:text-gray-100 active:text-gray-600"
                   >
                     <svg
                       class="h-5 w-5"
@@ -70,7 +70,7 @@ function Footer() {
                   <a
                     href="#"
                     target="_blank"
-                    class="text-gray-400 transition duration-100 hover:text-gray-500 active:text-gray-600"
+                    class="text-gray-400 transition duration-100 hover:text-gray-100 active:text-gray-600"
                   >
                     <svg
                       class="h-5 w-5"
@@ -87,7 +87,7 @@ function Footer() {
                   <a
                     href="#"
                     target="_blank"
-                    class="text-gray-400 transition duration-100 hover:text-gray-500 active:text-gray-600"
+                    class="text-gray-400 transition duration-100 hover:text-gray-100 active:text-gray-600"
                   >
                     <svg
                       class="h-5 w-5"
@@ -104,7 +104,7 @@ function Footer() {
                   <a
                     href="#"
                     target="_blank"
-                    class="text-gray-400 transition duration-100 hover:text-gray-500 active:text-gray-600"
+                    class="text-gray-400 transition duration-100 hover:text-gray-100 active:text-gray-600"
                   >
                     <svg
                       class="h-5 w-5"
@@ -121,7 +121,7 @@ function Footer() {
               </div>
 
               <div>
-                <div class="mb-4 font-bold uppercase tracking-widest text-gray-800">
+                <div class="mb-4 font-bold uppercase tracking-widest text-gray-300">
                   Products
                 </div>
 
@@ -129,7 +129,7 @@ function Footer() {
                   <div>
                     <a
                       href="#"
-                      class="text-gray-500 transition duration-100 hover:text-indigo-500 active:text-indigo-600"
+                      class="text-gray-100 transition duration-100 hover:text-indigo-500 active:text-indigo-600"
                     >
                       Overview
                     </a>
@@ -138,7 +138,7 @@ function Footer() {
                   <div>
                     <a
                       href="#"
-                      class="text-gray-500 transition duration-100 hover:text-indigo-500 active:text-indigo-600"
+                      class="text-gray-100 transition duration-100 hover:text-indigo-500 active:text-indigo-600"
                     >
                       Solutions
                     </a>
@@ -147,7 +147,7 @@ function Footer() {
                   <div>
                     <a
                       href="#"
-                      class="text-gray-500 transition duration-100 hover:text-indigo-500 active:text-indigo-600"
+                      class="text-gray-100 transition duration-100 hover:text-indigo-500 active:text-indigo-600"
                     >
                       Pricing
                     </a>
@@ -156,7 +156,7 @@ function Footer() {
                   <div>
                     <a
                       href="#"
-                      class="text-gray-500 transition duration-100 hover:text-indigo-500 active:text-indigo-600"
+                      class="text-gray-100 transition duration-100 hover:text-indigo-500 active:text-indigo-600"
                     >
                       Customers
                     </a>
@@ -165,7 +165,7 @@ function Footer() {
               </div>
 
               <div>
-                <div class="mb-4 font-bold uppercase tracking-widest text-gray-800">
+                <div class="mb-4 font-bold uppercase tracking-widest text-gray-300">
                   Company
                 </div>
 
@@ -173,7 +173,7 @@ function Footer() {
                   <div>
                     <a
                       href="#"
-                      class="text-gray-500 transition duration-100 hover:text-indigo-500 active:text-indigo-600"
+                      class="text-gray-100 transition duration-100 hover:text-indigo-500 active:text-indigo-600"
                     >
                       About
                     </a>
@@ -182,7 +182,7 @@ function Footer() {
                   <div>
                     <Link
                       to="/social"
-                      class="text-gray-500 transition duration-100 hover:text-indigo-500 active:text-indigo-600"
+                      class="text-gray-100 transition duration-100 hover:text-indigo-500 active:text-indigo-600"
                     >
                       Social
                     </Link>
@@ -191,7 +191,7 @@ function Footer() {
                   <div>
                     <a
                       href="#"
-                      class="text-gray-500 transition duration-100 hover:text-indigo-500 active:text-indigo-600"
+                      class="text-gray-100 transition duration-100 hover:text-indigo-500 active:text-indigo-600"
                     >
                       Jobs
                     </a>
@@ -200,7 +200,7 @@ function Footer() {
                   <div>
                     <Link
                       to="/gallery"
-                      class="text-gray-500 transition duration-100 hover:text-indigo-500 active:text-indigo-600"
+                      class="text-gray-100 transition duration-100 hover:text-indigo-500 active:text-indigo-600"
                     >
                       Gallery
                     </Link>
@@ -209,7 +209,7 @@ function Footer() {
                   <div>
                     <a
                       href="#"
-                      class="text-gray-500 transition duration-100 hover:text-indigo-500 active:text-indigo-600"
+                      class="text-gray-100 transition duration-100 hover:text-indigo-500 active:text-indigo-600"
                     >
                       Blog
                     </a>
@@ -218,7 +218,7 @@ function Footer() {
               </div>
 
               <div>
-                <div class="mb-4 font-bold uppercase tracking-widest text-gray-800">
+                <div class="mb-4 font-bold uppercase tracking-widest text-gray-300">
                   Support
                 </div>
 
@@ -226,7 +226,7 @@ function Footer() {
                   <div>
                     <a
                       href="#"
-                      class="text-gray-500 transition duration-100 hover:text-indigo-500 active:text-indigo-600"
+                      class="text-gray-100 transition duration-100 hover:text-indigo-500 active:text-indigo-600"
                     >
                       Contact
                     </a>
@@ -235,7 +235,7 @@ function Footer() {
                   <div>
                     <a
                       href="#"
-                      class="text-gray-500 transition duration-100 hover:text-indigo-500 active:text-indigo-600"
+                      class="text-gray-100 transition duration-100 hover:text-indigo-500 active:text-indigo-600"
                     >
                       Documentation
                     </a>
@@ -244,7 +244,7 @@ function Footer() {
                   <div>
                     <a
                       href="#"
-                      class="text-gray-500 transition duration-100 hover:text-indigo-500 active:text-indigo-600"
+                      class="text-gray-100 transition duration-100 hover:text-indigo-500 active:text-indigo-600"
                     >
                       Chat
                     </a>
@@ -253,7 +253,7 @@ function Footer() {
                   <div>
                     <a
                       href="#"
-                      class="text-gray-500 transition duration-100 hover:text-indigo-500 active:text-indigo-600"
+                      class="text-gray-100 transition duration-100 hover:text-indigo-500 active:text-indigo-600"
                     >
                       FAQ
                     </a>
@@ -262,7 +262,7 @@ function Footer() {
               </div>
 
               <div>
-                <div class="mb-4 font-bold uppercase tracking-widest text-gray-800">
+                <div class="mb-4 font-bold uppercase tracking-widest text-gray-300">
                   Legal
                 </div>
 
@@ -270,7 +270,7 @@ function Footer() {
                   <div>
                     <a
                       href="#"
-                      class="text-gray-500 transition duration-100 hover:text-indigo-500 active:text-indigo-600"
+                      class="text-gray-100 transition duration-100 hover:text-indigo-500 active:text-indigo-600"
                     >
                       Terms of Service
                     </a>
@@ -279,7 +279,7 @@ function Footer() {
                   <div>
                     <a
                       href="#"
-                      class="text-gray-500 transition duration-100 hover:text-indigo-500 active:text-indigo-600"
+                      class="text-gray-100 transition duration-100 hover:text-indigo-500 active:text-indigo-600"
                     >
                       Privacy Policy
                     </a>
@@ -288,7 +288,7 @@ function Footer() {
                   <div>
                     <a
                       href="#"
-                      class="text-gray-500 transition duration-100 hover:text-indigo-500 active:text-indigo-600"
+                      class="text-gray-100 transition duration-100 hover:text-indigo-500 active:text-indigo-600"
                     >
                       Cookie settings
                     </a>
@@ -303,7 +303,7 @@ function Footer() {
           </div>
         </div>
       </footer>
-      <footer class="new_footer_area bg_color">
+      <footer class="new_footer_area bg-black bg_color">
         <div class="new_footer_top">
           <div class="footer_bg">
             <div class="footer_bg_one"></div>

@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 function Hombout() {
   return (
     <div>
-      <div class="bg-white py-6 sm:py-8 lg:py-6">
+      <div class="bg-black py-6 sm:py-8 lg:py-6">
         <div class="mx-auto max-w-screen-xl px-4 md:px-6">
           <div class="grid gap-8 md:grid-cols-2 lg:gap-12">
             <div>
@@ -23,7 +23,7 @@ function Hombout() {
                 From Startups to Enterprises
               </p>
 
-              <h1 class="mb-4 text-justify text-2xl font-semibold text-gray-800 sm:text-3xl md:mb-4 md:text-left">
+              <h1 class="mb-4 text-justify text-2xl font-semibold text-gray-400 sm:text-3xl md:mb-4 md:text-left">
                 Unlocking Success Across Sectors : Our Marketing Mastery
               </h1>
 
@@ -37,7 +37,7 @@ function Hombout() {
               <br />
               <Link
                 to="/about"
-                class="mb-2 px-8 text-center hover:bg-indigo-600 bg-indigo-400 border border-gray-200 p-3 rounded shadow-default text-base font-semibold text-white sm:text-lg md:mb-4 md:text-left"
+                class="mb-2 px-8 text-center hover:bg-indigo-600 bg-indigo-400  p-3 rounded shadow-default text-base font-semibold text-white sm:text-lg md:mb-4 md:text-left"
               >
                 About us
               </Link>

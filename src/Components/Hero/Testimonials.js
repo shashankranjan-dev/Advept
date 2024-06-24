@@ -3,120 +3,113 @@ import React from "react";
 function Testimonials() {
   return (
     <div>
-      <section className="bg-gray-200 ">
-        <div className="container px-6 py-24 mx-auto">
-          <div className="grid items-center gap-4 xl:grid-cols-5">
-            <div className="max-w-2xl mx-auto my-8 space-y-4 text-center xl:col-span-2 xl:text-left">
-              <h2 className="text-4xl font-medium">What our customer says -</h2>
-              <p className="text-gray-600">
-                Pri ex magna scaevola moderatius. Nullam accommodare no vix, est
-                ei diceret alienum, et sit cetero malorum. Et sea iudico
-                consequat, est sanctus adipisci ex.
-              </p>
+      <div class="bg-black">
+        <section class="max-w-5xl mx-auto w-full px-10 py-10">
+          <div class="flex items-center justify-center flex-col gap-y-2 py-5">
+            <h2 class="text-2xl md:text-3xl lg:text-4xl font-bold max-w-md mx-auto text-center text-white">
+              Here's what our
+              <span class="text-[#45B3BA]">customers</span> have to say
+            </h2>
+            <p class="text-lg font-medium text-slate-400/70">
+              Discover how our service can benefit you
+            </p>
+          </div>
+          <div class="grid grid-cols-1 lg:grid-cols-5 gap-5 w-full">
+            <div class="border p-7 rounded-xl bg-neutral-900 drop-shadow-md border-neutral-800/50 col-span-2 flex flex-col gap-y-10 justify-between">
+              <div class="flex flex-col gap-y-3.5">
+                <p class="font-bold text-xl text-white">
+                  Efficient customer support
+                </p>
+                <p class="font-medium text-white">
+                  The customer support team at our service is incredibly
+                  responsive and helpful. They went above and beyond to assist
+                  me with my issue.
+                </p>
+              </div>
+              <div class="flex flex-col">
+                <img
+                  src="https://randomuser.me/api/portraits/women/43.jpg"
+                  alt="Emily Smith"
+                  class="h-10 w-10"
+                />
+                <p class="pt-2 text-sm font-semibold text-white">Emily Smith</p>
+                <p class="text-sm font-medium text-slate-100/70">
+                  Marketing Manager at ABC Company
+                </p>
+              </div>
             </div>
-            <div className="p-6 xl:col-span-3">
-              <div className="grid gap-4 md:grid-cols-2">
-                <div className="grid content-center gap-4">
-                  <div className="p-6 rounded shadow-lg hover:shadow-pink-200 transition hover:-translate-y-2 text-justify bg-gray-100">
-                    <p>
-                      An audire commodo habemus cum. Ne sed corrumpit
-                      repudiandae. Tota aliquip democritum pro in, nec
-                      democritum intellegam ne. Propriae volutpat dissentiet ea
-                      sit, nec at lorem inani tritani, an ius populo perfecto
-                      vituperatoribus. Eu cum case modus salutandi, ut eum
-                      vocent sensibus reprehendunt.
-                    </p>
-                    <div className="flex items-center mt-4 space-x-4">
-                      <img
-                        src="https://source.unsplash.com/50x50/?portrait?1"
-                        alt=""
-                        className="w-12 h-12 bg-center bg-cover rounded-full bg-gray-500"
-                      />
-                      <div>
-                        <p className="text-lg font-semibold">Leroy Jenkins</p>
-                        <p className="text-sm text-gray-400">
-                          CTO of Company Co.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="p-6 rounded shadow-lg hover:shadow-orange-200 transition hover:-translate-y-2 text-justify bg-gray-100">
-                    <p>
-                      Sit wisi sapientem ut, pri civibus temporibus voluptatibus
-                      et, ius cu hinc fabulas. Nam meliore minimum et, regione
-                      convenire cum id. Ex pro eros mucius consectetuer, pro
-                      magna nulla nonumy ne, eam putent iudicabit consulatu cu.
-                    </p>
-                    <div className="flex items-center mt-4 space-x-4">
-                      <img
-                        src="https://source.unsplash.com/50x50/?portrait?2"
-                        alt=""
-                        className="w-12 h-12 bg-center bg-cover rounded-full dark:bg-gray-500"
-                      />
-                      <div>
-                        <p className="text-lg font-semibold">Leroy Jenkins</p>
-                        <p className="text-sm text-gray-600">
-                          CTO of Company Co.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="grid content-center gap-4">
-                  <div className="p-6 rounded shadow-lg text-justify hover:shadow-blue-200 transition hover:-translate-y-2 bg-gray-100">
-                    <p>
-                      Putant omnium elaboraret per ut. Id dicta tritani nominavi
-                      quo, mea id justo errem elaboraret. Agam mollis scripserit
-                      ea his, ut nec postea verear persecuti. Ea noster senserit
-                      eam, ferri omittantur ei nec. Id mel solet libris
-                      efficiantur, commune explicari et eos. Case movet ad est,
-                      sed tota vocent appetere ea.
-                    </p>
-                    <div className="flex items-center mt-4 space-x-4">
-                      <img
-                        src="https://source.unsplash.com/50x50/?portrait?3"
-                        alt=""
-                        className="w-12 h-12 bg-center bg-cover rounded-full dark:bg-gray-500"
-                      />
-                      <div>
-                        <p className="text-lg font-semibold">Leroy Jenkins</p>
-                        <p className="text-sm text-gray-600">
-                          CTO of Company Co.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="p-6 rounded shadow-lg text-justify hover:shadow-green-200 transition hover:-translate-y-2 bg-gray-100">
-                    <p>
-                      Te omnes virtute volutpat sed. Ei esse eros interesset
-                      vel, ei populo denique ocurreret vix, eu cum pertinax
-                      mandamus vituperatoribus. Solum nihil luptatum per ex, ei
-                      amet viderer eos. Ea illum labitur mnesarchum pro. Eius
-                      meis salutandi ei nam, alterum expetenda et nec. Expetenda
-                      intellegat at eum, per mazim sanctus honestatis ad. Ei
-                      noluisse invenire vix. Te ancillae patrioque qui, probo
-                      bonorum vivendum ex vim.
-                    </p>
-                    <div className="flex items-center mt-4 space-x-4">
-                      <img
-                        src="https://source.unsplash.com/50x50/?portrait?4"
-                        alt=""
-                        className="w-12 h-12 bg-center bg-cover rounded-full dark:bg-gray-500"
-                      />
-                      <div>
-                        <p className="text-lg font-semibold">Leroy Jenkins</p>
-                        <p className="text-sm text-gray-600">
-                          CTO of Company Co.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+            <div class="border p-7 rounded-xl bg-neutral-900 drop-shadow-md border-neutral-800/50 col-span-3 flex flex-col gap-y-10 justify-between">
+              <div class="flex flex-col gap-y-3.5">
+                <p class="font-bold text-xl text-white">
+                  Excellent product features
+                </p>
+                <p class="font-medium text-white">
+                  The features offered by our service are outstanding. They have
+                  greatly improved our workflow and efficiency.
+                </p>
+              </div>
+              <div class="flex flex-col">
+                <img
+                  src="https://randomuser.me/api/portraits/men/34.jpg"
+                  alt="Michael Johnson"
+                  class="h-10 w-10"
+                />
+                <p class="pt-2 text-sm font-semibold text-white">
+                  Michael Johnson
+                </p>
+                <p class="text-sm font-medium text-slate-100/70">
+                  CEO at XYZ Corporation
+                </p>
+              </div>
+            </div>
+            <div class="border p-7 rounded-xl bg-neutral-900 drop-shadow-md border-neutral-800/50 col-span-3 flex flex-col gap-y-10 justify-between">
+              <div class="flex flex-col gap-y-3.5">
+                <p class="font-bold text-xl text-white">
+                  Seamless integration process
+                </p>
+                <p class="font-medium text-white">
+                  Integrating our systems with our service was smooth and
+                  hassle-free. The support team guided us through every step of
+                  the process.
+                </p>
+              </div>
+              <div class="flex flex-col">
+                <img
+                  src="https://randomuser.me/api/portraits/women/71.jpg"
+                  alt="Sarah Brown"
+                  class="h-10 w-10"
+                />
+                <p class="pt-2 text-sm font-semibold text-white">Sarah Brown</p>
+                <p class="text-sm font-medium text-slate-100/70">
+                  CTO at XYZ Corporation
+                </p>
+              </div>
+            </div>
+            <div class="border p-7 rounded-xl bg-neutral-900 drop-shadow-md border-neutral-800/50 col-span-2 flex flex-col gap-y-10 justify-between">
+              <div class="flex flex-col gap-y-3.5">
+                <p class="font-bold text-xl text-white">
+                  Reliable service uptime
+                </p>
+                <p class="font-medium text-white">
+                  Our service has consistently maintained high uptime, ensuring
+                  that our operations run smoothly without any disruptions.
+                </p>
+              </div>
+              <div class="flex flex-col">
+                <img
+                  src="https://randomuser.me/api/portraits/men/71.jpg"
+                  alt="James White"
+                  class="h-10 w-10"
+                />
+                <p class="pt-2 text-sm font-semibold text-white">James White</p>
+                <p class="text-sm font-medium text-slate-100/70">
+                  COO at XYZ Corporation
+                </p>
               </div>
             </div>
           </div>
-        </div>
-      </section>
+        </section>
+      </div>
     </div>
   );
 }

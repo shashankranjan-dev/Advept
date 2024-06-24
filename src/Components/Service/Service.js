@@ -5,14 +5,8 @@ import { useNavigate } from "react-router-dom";
 export default function Home() {
   const navigate = useNavigate();
   return (
-    <>
-      <div class="container relative flex flex-col justify-between h-full max-w-screen-2xl py-12 px-10 mx-auto xl:px-4 mt-5">
-        <h2 class="mb-1 text-3xl font-extrabold leading-tight text-gray-900">
-          Services
-        </h2>
-        <p class="mb-12 text-lg text-gray-500">
-          Here is a few of the awesome Services we provide.
-        </p>
+    <div className="bg-black">
+      <div class="container relative flex flex-col justify-between h-full max-w-screen-xl py-12 px-10 mx-auto xl:px-4 ">
         <div class="w-full">
           <div class="flex flex-col w-full mb-10 sm:flex-row">
             <div class="w-full mb-10 sm:mb-0 sm:w-1/2">
@@ -227,6 +221,6 @@ export default function Home() {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 }
