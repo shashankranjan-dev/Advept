@@ -65,7 +65,7 @@ function Hero() {
             <div class=" mx-auto mt-10 max-w-screen-xl">
               <img
                 class="w-full rounded-t-2xl object-cover object-center  h-[600px]"
-                src="https://images.unsplash.com/photo-1587502536575-6dfba0a6e017"
+                src="/Main Banner.jpg"
                 alt=""
               />
             </div>
